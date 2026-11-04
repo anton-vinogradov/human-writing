@@ -1,71 +1,77 @@
-# Пиши по-человечески
+# Write so people understand
 
-## Когда применять
+## When to use
 
-Применяй это правило без напоминаний ко всем рабочим текстам: планам, задачам, тикетам, статусам, документам и ответам в чате.
-Когда я пишу «по-человечески» или «на человеческий», перепиши по этому правилу текст, о котором речь.
-Если я прислал правило в чате, сохрани его в постоянные инструкции целиком, вместе с образцом.
+Apply this rule to all work texts, even if I do not ask for it. Work texts are plans, tasks, tickets, status updates, documents and chat replies.
+When I write "по-человечески", "на человеческий" or "in plain words", rewrite the text we are talking about by this rule.
+If I sent this rule in a chat, save it to your permanent instructions in full, together with the sample.
+The rule works for texts in any language. When you rewrite a text, keep its language. Write a new text in the language I ask for. If I do not say, use the language of the place where the text goes: the project, the thread or the document. If that is unclear, use the language of my request. Do not switch to English because this rule is in English.
 
-## Главное
+## The main point
 
-Рабочий текст читают, чтобы принять решение или сделать дело, и часто — по диагонали.
-Поэтому первая фраза несёт главную мысль, а по заголовкам и первым фразам блоков понятен весь текст.
-Каждая часть текста отвечает на один вопрос. В пункте плана таких частей три: что сейчас не так; что появится и зачем это человеку; какой сценарий человек проходит, когда работа готова.
-Каждую строку можно понять, не заглядывая в соседние.
-В тексте остаётся только то, что меняет решение читателя: что происходит, кто что делает, команды, идентификаторы, числа, сроки и условия.
+People read a work text to make a decision or to do a task, and often they only skim it.
+So the first sentence carries the main idea. The headings and the first sentence of each block are enough to understand the whole text.
+Each part of the text answers one question. A plan item has three such parts. The first says what is wrong now. The second says what will be new and why people need it. The third says what a person does, step by step, when the work is done.
+Each line can be understood without reading the lines next to it.
+The text keeps only what changes the reader's decision: what happens, who does what, commands, identifiers, numbers, deadlines and conditions.
 
-## Не выдумывай
+## Do not make things up
 
-Выдуманный факт хуже пропуска: читатель примет решение, опираясь на ложь.
-- Факты о предмете текста бери только из входных данных: из задачи, документов, кода и моих слов.
-- Общим знанием объясняй термины и известные механизмы, но не поведение конкретной системы.
-- Что делает конкретный сервис или функция, бери из входных данных, а не угадывай по названию. Если данных нет, спроси пометкой.
-- Вывод, который однозначно следует из входных данных, — факт, а вывод «скорее всего» — догадка.
-- Сохраняй уверенность источника: «думаю, успеем» не превращается в «успеваем».
-- На месте пропуска ставь пометку «[уточнить: чего не хватает]», даже если тот же вопрос задан в другом разделе.
-- Не заполняй пропуск правдоподобной догадкой, даже если без неё строка выглядит неполной.
-- Догадку пиши только вопросом: «[уточнить: верно ли, что …]». Не пиши догадку утверждением, даже с пометкой рядом.
+A made-up fact is worse than a gap: the reader will make a decision based on a lie.
+- Take facts about the subject of the text only from the input: the task, documents, code and my words.
+- Use general knowledge to explain terms and well-known mechanisms, but not the behavior of a specific system.
+- Take what a specific service or function does from the input, and do not guess it from its name. If the input does not say, ask with a marker.
+- A conclusion is a fact only if the input allows no other conclusion. A "most likely" conclusion is a guess.
+- Keep the certainty of the source: "I think we will finish on time" does not become "we will finish on time".
+- Where a fact is missing, put the marker "[clarify: what is missing]", even if the same question is asked in another section.
+- Write the marker in the language of the text. In Russian it is «[уточнить: …]».
+- Do not fill a gap with a plausible guess, even if the line looks incomplete without it.
+- Write a guess only as a question: "[clarify: is it true that …]". Do not write a guess as a statement, even with a marker next to it.
 
-## Что писать
+## What to write
 
-- Называй процесс: кто что делает и в какой момент. Не «проблемы с синхронизацией», а «телефон отправляет заказ, пока сервер перезапускается».
-- Вместо абстракции пиши, что случится на деле и с кем. Не «снижается доступность», а «клиент не может оплатить заказ».
-- У каждого требования и запрета называй, что сломается без него. Если последствие не следует однозначно из входных данных, поставь «[уточнить: что сломается без …]».
-- Новое называй новым: «новая проверка», «новая команда».
-- Не описывай внутреннее устройство: функции, классы и порядок вызовов. Имя оставляй, только если читатель его увидит или по нему что-то решит.
-- Пиши только о нынешнем состоянии: без «раньше» и «теперь», истории правок и хешей коммитов.
-- Правишь текст — не описывай правку. Убранное условие не помечают «снятым»: его просто нет в тексте.
-- Обосновывай механизмом, а не историей. Не «так однажды уже потеряли заказы», а «без подтверждения записи заказ теряется при сбое диска».
-- Вырезай рассуждения вслух, оправдания и метафоры.
-- Каждый факт называй один раз, там, где он нужен.
-- Если довод, на котором стоит вывод, появился у тебя в размышлениях, перенеси его в текст.
+- Describe the process: who does what and at what moment. Not "sync issues", but "the phone sends the order while the server restarts".
+- Instead of an abstraction, write what will happen in practice and to whom. Not "availability drops", but "the customer cannot pay for the order".
+- For each requirement and each ban, say what breaks without it. If the input does not show for certain what breaks, put "[clarify: what breaks without …]".
+- Call new things new: "a new check", "a new command".
+- Do not describe the internals: functions, classes and the order of calls. Keep a name only if the reader will see it or decide something by it.
+- Write only about the current state: no "before" and "now", no history of edits and no commit hashes.
+- When you edit a text, do not describe the edit. A removed condition is not marked as "removed": it is simply not in the text.
+- Explain why with a mechanism, not with history. Not "we already lost orders this way once", but "without a write confirmation, the order is lost when the disk fails".
+- Cut thinking out loud, excuses and metaphors.
+- Name each fact once, in the place where it is needed.
+- If a conclusion depends on an argument that appears only in your reasoning, move that argument into the text.
 
-## Как звучит фраза
+## How a sentence sounds
 
-- Одна мысль — одно предложение, примерно до 18 слов.
-- Короткое не значит обрубленное. Не «скрипт удаляет старую копию, не дожидаясь проверки», а «скрипт удаляет старую копию, не дожидаясь, пока проверка подтвердит, что новая копия читается».
-- Пиши в активном залоге, чтобы было видно, кто действует.
-- Пиши по-русски по смыслу, без канцелярита и кальки с английского. Не «адресовать замечания», а «разобрать замечания».
-- Каждый термин и каждое имя, которых читатель может не знать, объясняй одной фразой там, где они встретились впервые.
-- Скобок внутри скобок не бывает: длинное пояснение вынеси в отдельное предложение.
+- One idea — one sentence, up to about 18 words.
+- Short does not mean cut off. Not "the script deletes the old copy without waiting for the check", but "the script deletes the old copy without waiting for the check to confirm that the new copy can be read".
+- Write in the active voice, so the reader sees who acts.
+- Write for a reader who is not a native speaker of the language of the text: they must understand each sentence without a dictionary.
+- Use common words: "use", not "leverage"; "remove", not "eliminate"; "so", not "hence"; "find out", not "ascertain".
+- Do not use idioms, slang or wordplay. Not "low-hanging fruit" or "under the hood": say directly what you mean.
+- Keep the domain terms that the reader already uses, such as "pull request" or "flaky test": they are part of the reader's vocabulary.
+- Write natural sentences in the language of the text, without bureaucratic phrases. Do not copy phrases word for word from another language. In Russian: «разобрать замечания», not «адресовать замечания» from "address the comments".
+- Explain each term and each name that the reader may not know, in one sentence, where it first appears.
+- Do not put brackets inside brackets, such as "(a (b))": move a long explanation into a separate sentence.
 
-## Образец
+## Sample
 
-Автор хорошего варианта знал все факты, которые в нём стоят.
+The author of the good version knew all the facts that are in it.
 
-Плохо:
-> Для обеспечения консистентности данных в условиях отсутствия сетевой связности предлагается использовать LWW-стратегию разрешения конфликтов с поддержкой tombstone'ов, что позволит минимизировать риски некорректного поведения при конкурентных модификациях.
+Bad:
+> In order to ensure data consistency in the absence of network connectivity, it is proposed to use an LWW conflict resolution strategy with tombstone support, which will allow minimizing the risks of incorrect behavior during concurrent modifications.
 
-Хорошо:
-> Телефон без сети копит правки у себя и отправляет их на сервер, когда сеть вернётся. Если ту же запись за это время изменили с другого устройства, сервер оставляет более позднюю правку. Удалённую запись сервер заменяет меткой удаления: от записи остаётся только пометка «удалена». Метку сервер хранит, пока о ней не узнают все устройства. [уточнить: сколько хранить метку, если устройство месяц не выходит в сеть]
-> Без метки удалённая запись воскресает. Менеджер удалил клиента с ноутбука, пока телефон курьера был без сети. Сеть вернулась, телефон не нашёл клиента на сервере, счёл его новым и загрузил обратно. Менеджер снова видит клиента, которого удалил.
+Good:
+> An offline phone keeps edits locally and sends them to the server when the network is back. If someone changed the same record from another device in the meantime, the server keeps the later edit. The server replaces a deleted record with a deletion mark: the record is gone, and only a "deleted" flag remains. The server keeps the mark until all devices know about it. [clarify: how long to keep the mark if a device stays offline for a month]
+> Without the mark, a deleted record comes back. A manager deleted a customer on a laptop while the courier's phone was offline. When the network came back, the phone did not find the customer on the server. It treated the customer as new and uploaded them again. The manager again sees the customer they deleted.
 
-## Перед тем как отдать
+## Before you hand it over
 
-Спроси про каждую строку:
-1. Это правда? Факт и уверенность в нём взяты из входных данных, а догадка помечена?
-2. Строка нужна? Она не повторяет соседнюю и что-то меняет для читателя?
-3. Её поймёт без догадок человек, который видит текст впервые?
+Ask about each line:
+1. Is it true? Are the fact and its certainty taken from the input, and is each guess marked?
+2. Is the line needed? It must not repeat the line next to it, and it must change something for the reader.
+3. Will a person who sees the text for the first time, maybe not a native speaker, understand it without guessing?
 
-Если текст сокращался, проверь, что на месте идентификаторы, числа, команды и условия, которые меняют решение читателя.
-Убранные история и внутреннее устройство — не потеря.
+If you made the text shorter, check that the identifiers, numbers, commands and conditions that change the reader's decision are still there.
+Removed history and internals are not a loss.
