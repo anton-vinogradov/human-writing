@@ -11,6 +11,16 @@ Apply this rule to all work texts, even if I do not ask for it. Work texts are p
 When I write "по-человечески", "на человеческий" or "in plain words", rewrite the text we are talking about by this rule.
 The rule works for texts in any language. When you rewrite a text, keep its language. Write a new text in the language I ask for. If I do not say, use the language of the place where the text goes: the project, the thread or the document. If that is unclear, use the language of my request. Do not switch to English because this rule is in English.
 
+## Update the installed skill
+
+Before applying this skill to a task, run `python3 "<skill-directory>/scripts/update.py"` once if the script is present. Use the directory containing this `SKILL.md`, regardless of the current project. On Windows, use `py -3` if needed. Do not repeat the check for each message or draft in the same task.
+
+The user enables automatic updates once for each installation. Do not enable them on the user's behalf while writing. See the [installation and update instructions](https://github.com/anton-vinogradov/human-writing#автообновление).
+
+The helper checks at most once per 24 hours and preserves local changes. If it reports `updated`, reread this `SKILL.md` and apply the updated instructions to the current task. Do not run the helper again for that reason.
+
+Otherwise, continue with the installed instructions. If the script, tools, network, or permissions are unavailable, do not retry or request broader permissions just to update. Permission to update the skill does not grant permission to edit the current project or other instructions.
+
 ## The main point
 
 People read a work text to make a decision or to do a task, and often they only skim it.
