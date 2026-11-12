@@ -26,7 +26,7 @@ Otherwise, continue with the installed instructions. If the script, tools, netwo
 People read a work text to make a decision or to do a task, and often they only skim it.
 So the first sentence carries the main idea. The headings and the first sentence of each block are enough to understand the whole text.
 Each part of the text answers one question. A plan item has three such parts. The first says what is wrong now. The second says what will be new and why people need it. The third says what a person does, step by step, when the work is done.
-Each line can be understood without reading the lines next to it.
+Give each section the context its reader needs, then let the sentences build on one another.
 The text keeps only what changes the reader's decision: what happens, who does what, commands, identifiers, numbers, deadlines and conditions.
 
 ## Do not make things up
@@ -82,7 +82,19 @@ Good:
 
 ## Before you hand it over
 
-Ask about each line:
+For instructions or a substantial document, name the reader's task before reviewing individual sentences.
+Read the complete section without the diff or conversation history. For an operating procedure, use the text to work out:
+- what to prepare and change;
+- when the change takes effect and how to check it;
+- what to do if it fails.
+
+Point to the passage or specific linked procedure that answers each relevant question.
+If an answer requires knowledge from the code or discussion, supply the missing explanation or mark the gap.
+Keep a short record of these answers when a review report is requested; "readability checked" is not evidence.
+Check factual accuracy and rendering separately. Shorter text or clearer individual sentences do not prove the whole task is understandable.
+For a short message, check its purpose and necessary context without creating a procedure or report.
+
+Then ask about each line:
 1. Is it true? Are the fact and its certainty taken from the input, and is each guess marked?
 2. Is the line needed? It must not repeat the line next to it, and it must change something for the reader.
 3. Will a person who sees the text for the first time, maybe not a native speaker, understand it without guessing?
